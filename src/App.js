@@ -9,6 +9,7 @@ import SecondFloorChung from './theaterInfo/chungmuArt/SecondFloorChung';
 import ThirdFloorChung from './theaterInfo/chungmuArt/ThirdFloorChung';
 import MusicalReview from './review/MusicalReview';
 import Reservation from './reservation/Reservation';
+import MusicalDataApi from './api/MusicalDataApi';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path='/Login' element={<Login />} />
         <Route path='/MusicalReview' element={<MusicalReview />} />
         <Route path='/Reservation' element={<Reservation />} />
+        <Route path='/MusicalDataApi' element={<MusicalDataApi/>}/>
       </Routes>
     </Router>
     </>

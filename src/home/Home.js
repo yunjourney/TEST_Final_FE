@@ -11,6 +11,7 @@ const Home = () => {
         <Link to = "/FirstFloorChung"> 충무아트 좌석 정보</Link> <br></br>
         <Link to = "/MusicalReview"> 충무아트 좌ddd석 정보</Link> <br></br>
         <Link to = "/Reservation"> 예매 임시 페이지 </Link> <br></br>
+        <Link to = "/MusicalDataApi"> 베토벤 상세 test </Link>
         
 
         </>
